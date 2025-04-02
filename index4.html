@@ -17,10 +17,11 @@
       background-color: #efdecd;
       color: #333;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: flex-start;
       min-height: 100vh;
       padding: 40px;
+      flex-wrap: wrap;
     }
     
     .contact-container {
@@ -82,6 +83,8 @@
       box-shadow: 0 6px 15px rgba(0, 0, 0, 0.03);
       transition: all 0.3s ease;
       border-left: 4px solid transparent;
+      display: flex;
+      flex-direction: column;
     }
     
     .grid-item:hover {
@@ -115,6 +118,8 @@
       font-weight: 500;
       font-size: 1em;
       letter-spacing: 0.5px;
+      display: block;
+      margin-top: auto;
     }
     
     button:hover {
@@ -185,6 +190,7 @@
       body {
         flex-direction: column;
         padding: 20px;
+        align-items: center;
       }
       
       .contact-container {
@@ -221,17 +227,14 @@
       <div class="grid-item">
         <h2>General Inquiries</h2>
         <p>Want to share feedback, suggest new features, or have general questions about our services? We'd love to hear from you.</p>
-        <button >Send Inquiry</button>
+        <button>Send Inquiry</button>
       </div>
     </div>
   </div>  
-  
   <div class="live-chat-feature">
-    
     <h3>Need Instant Help?</h3>
     <p>Our friendly support agents are available 24/7 to assist you with any questions or concerns you might have.</p>
-    
-    <button >Start Live Chat</button>
+    <button>Start Live Chat</button>
   </div>
 </body>
 </html>
